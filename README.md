@@ -111,3 +111,15 @@ My preferred language: C++
 **Time Complexity:** $$O(n)$$
 
 **Space Complexity:** $$O(1)$$
+
+
+
+**9.** [Search Insert Position](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Search_Insert_Position.cpp)
+
+**Platform:** [LeetCode](https://leetcode.com/problems/search-insert-position/)
+
+**Approach:** searching
+
+**Time Complexity:** $$O(n)$$
+
+**Space Complexity:** $$O(1)$$
