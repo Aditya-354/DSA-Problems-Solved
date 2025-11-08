@@ -34,11 +34,29 @@ My preferred language: C++
 
 **Platform:** [GeeksforGeeks](https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1?page=1&category=Arrays,CPP&difficulty=Easy&sortBy=submissions)
 
-**Approach:** Simple for loop. Declare the variables as long long
+**Approach:** We know that the sum of the first 'n' natural numbers is given by:
+        sum = n * (n + 1) / 2
 
-**Time Complexity:** $$O(n)$$
+If one number is missing in a list that should contain numbers from 1 to n,
+the difference between the expected sum and the actual sum of the array
+will give the missing number.
 
-**Space Complexity:** $$O(1)$$
+Steps:
+1. Calculate 'n' as arr.size() + 1.
+2. Compute the total expected sum using the formula.
+3. Compute the actual sum of all elements in the array.
+4. Return (total - sum), which is the missing number.
+
+Example:
+    Input  → [1, 2, 3, 5]
+    Expected numbers → [1, 2, 3, 4, 5]
+    total = 5 * (5 + 1) / 2 = 15
+    sum = 1 + 2 + 3 + 5 = 11
+    Missing number = 15 - 11 = 4
+
+**Time Complexity:** $$O(n)$$  - The array is traversed once to calculate the sum.
+
+**Space Complexity:** $$O(1)$$     - Only a few extra variables are used (constant space).
 
 
 
