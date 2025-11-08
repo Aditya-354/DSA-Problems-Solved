@@ -123,3 +123,15 @@ My preferred language: C++
 **Time Complexity:** $$O(n)$$
 
 **Space Complexity:** $$O(1)$$
+
+
+
+**9.** [Concatenation of Array](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Concatenation_of_array.cpp)
+
+**Platform:** [LeetCode](https://leetcode.com/problems/concatenation-of-array/description/)
+
+**Approach:** Array traversal & insertion
+
+**Time Complexity:** $$O(n)$$
+
+**Space Complexity:** $$O(n)$$
