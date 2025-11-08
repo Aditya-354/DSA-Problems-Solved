@@ -82,11 +82,28 @@ My preferred language: C++
 
 **Platform:** [GeeksforGeeks](https://www.geeksforgeeks.org/problems/second-largest3735/1?page=1&category=Arrays,CPP&difficulty=Easy&sortBy=submissions)
 
-**Approach:** Searching
+**Approach:** We maintain two variables:
+    → firstMax   = largest number so far
+    → secondMax  = second largest distinct number so far
 
-**Time Complexity:** $$O(n)$$
+Algorithm:
+1. Initialize both as INT_MIN.
+2. Traverse the array once:
+       a. If current number > firstMax:
+              secondMax = firstMax
+              firstMax = current number
+       b. Else if current number < firstMax but > secondMax:
+              secondMax = current number
+3. After traversal, if secondMax was never updated, return -1.
+   Otherwise, return secondMax.
 
-**Space Complexity:** $$O(1)$$
+Example:
+    Input  → [4, 9, 10, 8, 14, 6]
+    Output → 10
+
+**Time Complexity:** $$O(n)$$ - We traverse the array once, doing constant work each step.
+
+**Space Complexity:** $$O(1)$$     - We only use a fixed number of extra variables (firstMax, secondMax).
 
 
 
