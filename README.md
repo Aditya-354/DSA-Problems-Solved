@@ -126,7 +126,7 @@ My preferred language: C++
 
 
 
-**9.** [Concatenation of Array](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Concatenation_of_array.cpp)
+**10** [Concatenation of Array](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Concatenation_of_array.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/concatenation-of-array/description/)
 
