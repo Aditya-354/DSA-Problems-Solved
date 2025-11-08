@@ -10,7 +10,7 @@ My preferred language: C++
 
 **PROBLEMS SOLVED:**
 
-[Arrays](https://github.com/Aditya-354/Interesting-DSA-Problems/tree/main/Arrays) : **$8$$**
+[Arrays](https://github.com/Aditya-354/Interesting-DSA-Problems/tree/main/Arrays) : **$10$**
 
 
 ## Arrays
