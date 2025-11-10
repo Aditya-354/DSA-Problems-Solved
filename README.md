@@ -10,7 +10,7 @@ My preferred language: C++
 
 **PROBLEMS SOLVED:**
 
-[Arrays](https://github.com/Aditya-354/Interesting-DSA-Problems/tree/main/Arrays) : **$10$**
+[Arrays](https://github.com/Aditya-354/Interesting-DSA-Problems/tree/main/Arrays) : **$11$**
 
 
 ## Arrays
@@ -164,6 +164,18 @@ Example:
 **10** [Concatenation of Array](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Concatenation_of_array.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/concatenation-of-array/description/)
+
+**Approach:** Array traversal & insertion
+
+**Time Complexity:** $$O(n)$$
+
+**Space Complexity:** $$O(n)$$
+
+
+
+**11** [contains Duplicate](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Concatenation_of_array.cpp)
+
+**Platform:** [LeetCode](https://leetcode.com/problems/contains-duplicate/)
 
 **Approach:** Array traversal & insertion
 
