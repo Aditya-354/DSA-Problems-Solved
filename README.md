@@ -173,7 +173,7 @@ Example:
 
 
 
-**11.** [contains Duplicate](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Contains_Duplicate.cpp)
+**11.** [Contains Duplicate](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Contains_Duplicate.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/contains-duplicate/)
 
