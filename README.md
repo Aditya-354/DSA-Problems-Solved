@@ -182,3 +182,14 @@ Example:
 **Time Complexity:** $$O(n)$$
 
 **Space Complexity:** $$O(n)$$
+
+
+**12.** [Valid Anagram](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Valid_Anagram.cpp)
+
+**Platform:** [LeetCode](https://leetcode.com/problems/valid-anagram/description/)
+
+**Approach:** Using hash maps to store and check anagram
+
+**Time Complexity:** $$O(n)$$
+
+**Space Complexity:** $$O(1)$$
