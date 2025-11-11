@@ -177,7 +177,7 @@ Example:
 
 **Platform:** [LeetCode](https://leetcode.com/problems/contains-duplicate/)
 
-**Approach:** Array traversal & insertion
+**Approach:** Searching if the duplicate of an element occurs at least once using hash maps 
 
 **Time Complexity:** $$O(n)$$
 
