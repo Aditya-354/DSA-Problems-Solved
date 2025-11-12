@@ -10,7 +10,7 @@ My preferred language: C++
 
 **PROBLEMS SOLVED:**
 
-[Arrays](https://github.com/Aditya-354/Interesting-DSA-Problems/tree/main/Arrays) : **$12$**
+[Arrays](https://github.com/Aditya-354/Interesting-DSA-Problems/tree/main/Arrays) : *13*
 
 
 ## Arrays
@@ -192,5 +192,18 @@ Example:
 **Approach:** Using hash maps to store and check anagram
 
 **Time Complexity:** $$O(n)$$
+
+**Space Complexity:** $$O(1)$$
+
+
+
+
+**13.** [Longest Common Prefix](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Longest_Common_Prefix.cpp)
+
+**Platform:** [LeetCode](https://leetcode.com/problems/longest-common-prefix/)
+
+**Approach:** Array traversal and string operations to find the longest common prefix
+
+**Time Complexity:** $$O(s)$$
 
 **Space Complexity:** $$O(1)$$
