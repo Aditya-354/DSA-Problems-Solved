@@ -91,8 +91,14 @@ The number of unique elements = i + 1.
 The array is modified in place (no extra array created).
 
 **Time Complexity:** $$O(n)$$
+We make one pass through the vector using pointer j.
+
+Each element is processed exactly once.
 
 **Space Complexity:** $$O(1)$$
+No extra memory is used except for a few variables.
+
+All operations are done in place.
 
 
 
