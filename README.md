@@ -24,9 +24,9 @@ My preferred language: C++
 
 **Approach:** Hash map (store value already visited to check later on)
 
-**Time Complexity:**  $$O(n)$$ -- loop only once
+**TIME COMPLEXITY:**  $$O(n)$$ -- loop only once
 
-**Space complexity:** $$O(n)$$
+**SPACE COMPLEXITY:** $$O(n)$$
 
 
 
@@ -54,9 +54,9 @@ Example:
     sum = 1 + 2 + 3 + 5 = 11
     Missing number = 15 - 11 = 4
 
-**Time Complexity:** $$O(n)$$  - The array is traversed once to calculate the sum.
+**TIME COMPLEXITY:** $$O(n)$$  - The array is traversed once to calculate the sum.
 
-**Space Complexity:** $$O(1)$$     - Only a few extra variables are used (constant space).
+**SPACE COMPLEXITY:** $$O(1)$$     - Only a few extra variables are used (constant space).
 
 
 
@@ -68,37 +68,18 @@ Example:
 
 We use two pointers:
 
-Pointer i
-
-Tracks the position of the last unique element found.
+Pointer i: Tracks the position of the last unique element found.
 
 Starts at index 0.
 
-Pointer j
+Pointer j: Scans the array from index 1 to end.
 
-Scans the array from index 1 to end.
+Logic: If nums[j] != nums[i], then a new unique element is found. Increment i and copy nums[j] to nums[i].
+Continue until j reaches the end. The number of unique elements = i + 1. The array is modified in place (no extra array created).
 
-Logic
+**TIME COMPLEXITY:** $$O(n)$$  - We make one pass through the vector using pointer j. Each element is processed exactly once.
 
-If nums[j] != nums[i], then a new unique element is found.
-
-Increment i and copy nums[j] to nums[i].
-
-Continue until j reaches the end.
-
-The number of unique elements = i + 1.
-
-The array is modified in place (no extra array created).
-
-**Time Complexity:** $$O(n)$$
-We make one pass through the vector using pointer j.
-
-Each element is processed exactly once.
-
-**Space Complexity:** $$O(1)$$
-No extra memory is used except for a few variables.
-
-All operations are done in place.
+**SPACE COMPLEXITY:** $$O(1)$$  - No extra memory is used except for a few variables. All operations are done in place.
 
 
 
@@ -108,9 +89,9 @@ All operations are done in place.
 
 **Approach:** Two Pointer method.
 
-**Time Complexity:** $$O(n)$$
+**TIME COMPLEXITY:** $$O(n)$$
 
-**Space Complexity:** $$O(1)$$
+**SPACE COMPLEXITY:** $$O(1)$$
 
 
 
@@ -120,9 +101,9 @@ All operations are done in place.
 
 **Approach:** A two pointer approach where the carry keeps track of the carry from incrementing the digits. If the digit/last digit is 9, it is incremented to 10, and carry becomes 1.
 
-**Time Complexity:** $$O(n)$$
+**TIME COMPLEXITY:** $$O(n)$$
 
-**Space Complexity:** $$O(1)$$
+**SPACE COMPLEXITY:** $$O(1)$$
 
 
 
@@ -149,9 +130,9 @@ Example:
     Input  → [4, 9, 10, 8, 14, 6]
     Output → 10
 
-**Time Complexity:** $$O(n)$$ - We traverse the array once, doing constant work each step.
+**TIME COMPLEXITY:** $$O(n)$$ - We traverse the array once, doing constant work each step.
 
-**Space Complexity:** $$O(1)$$     - We only use a fixed number of extra variables (firstMax, secondMax).
+**SPACE COMPLEXITY:** $$O(1)$$     - We only use a fixed number of extra variables (firstMax, secondMax).
 
 
 
@@ -161,9 +142,9 @@ Example:
 
 **Approach:** Two Pointers, string matching
 
-**Time Complexity:** $$O(m * n)$$
+**TIME COMPLEXITY:** $$O(m * n)$$
 
-**Space Complexity:** $$O(1)$$
+**SPACE COMPLEXITY:** $$O(1)$$
 
 
 
@@ -173,9 +154,9 @@ Example:
 
 **Approach:** searching
 
-**Time Complexity:** $$O(n)$$
+**TIME COMPLEXITY:** $$O(n)$$
 
-**Space Complexity:** $$O(1)$$
+**SPACE COMPLEXITY:** $$O(1)$$
 
 
 
@@ -185,9 +166,9 @@ Example:
 
 **Approach:** searching
 
-**Time Complexity:** $$O(n)$$
+**TIME COMPLEXITY:** $$O(n)$$
 
-**Space Complexity:** $$O(1)$$
+**SPACE COMPLEXITY:** $$O(1)$$
 
 
 
@@ -197,9 +178,9 @@ Example:
 
 **Approach:** Array traversal & insertion
 
-**Time Complexity:** $$O(n)$$
+**TIME COMPLEXITY:** $$O(n)$$
 
-**Space Complexity:** $$O(n)$$
+**SPACE COMPLEXITY:** $$O(n)$$
 
 
 
@@ -209,9 +190,9 @@ Example:
 
 **Approach:** Searching if the duplicate of an element occurs at least once using hash maps 
 
-**Time Complexity:** $$O(n)$$
+**TIME COMPLEXITY:** $$O(n)$$
 
-**Space Complexity:** $$O(n)$$
+**SPACE COMPLEXITY:** $$O(n)$$
 
 
 
@@ -221,9 +202,9 @@ Example:
 
 **Approach:** Using hash maps to store and check anagram
 
-**Time Complexity:** $$O(n)$$
+**TIME COMPLEXITY:** $$O(n)$$
 
-**Space Complexity:** $$O(1)$$
+**SPACE COMPLEXITY:** $$O(1)$$
 
 
 
@@ -234,6 +215,6 @@ Example:
 
 **Approach:** Array traversal and string operations to find the longest common prefix
 
-**Time Complexity:** $$O(s)$$
+**TIME COMPLEXITY:** $$O(s)$$
 
-**Space Complexity:** $$O(1)$$
+**SPACE COMPLEXITY:** $$O(1)$$
