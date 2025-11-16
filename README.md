@@ -64,7 +64,31 @@ Example:
 
 **Platform:** [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
 
-**Approach:** I used the two-pointers method. Using two variables *i*(keeps track of the unique values) and *j*(array traversal through the loop body). I struggled while solving this problem. I hope you do too.
+**Approach:** Since the input array is sorted, all duplicates will appear next to each other.
+
+We use two pointers:
+
+Pointer i
+
+Tracks the position of the last unique element found.
+
+Starts at index 0.
+
+Pointer j
+
+Scans the array from index 1 to end.
+
+Logic
+
+If nums[j] != nums[i], then a new unique element is found.
+
+Increment i and copy nums[j] to nums[i].
+
+Continue until j reaches the end.
+
+The number of unique elements = i + 1.
+
+The array is modified in place (no extra array created).
 
 **Time Complexity:** $$O(n)$$
 
