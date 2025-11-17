@@ -17,46 +17,37 @@ My preferred language: C++
 
 [Arrays](https://github.com/Aditya-354/Interesting-DSA-Problems/tree/main/Arrays) are ADTs (Abstract Data Types)
 
-
-**1.** [Two - Sum](https://github.com/Aditya-354/Interesting-DSA-Problems/blob/main/Arrays/TwoSum.cpp)
+<details>
+<summary><strong>**1.** [LC-1: Two - Sum](https://github.com/Aditya-354/Interesting-DSA-Problems/blob/main/Arrays/TwoSum.cpp)</strong></summary>
 
 **Platform:** [LeetCode](https://leetcode.com/problems/two-sum/description/)
 
-**Approach:** Hash map (store value already visited to check later on)
+**Approach:** 
+
+-> Use a hashmap to store numbers seen so far.
+-> For each number, check if `target - num` is already in the map.
+
+**Pattern:** Hash map
 
 **TIME COMPLEXITY:**  $$O(n)$$ -- loop only once
 
 **SPACE COMPLEXITY:** $$O(n)$$
-
+</details>
 
 
 **2.** [Missing in Array](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Missing_in_Array.cpp)
 
 **Platform:** [GeeksforGeeks](https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1?page=1&category=Arrays,CPP&difficulty=Easy&sortBy=submissions)
 
-**Approach:** We know that the sum of the first 'n' natural numbers is given by:
-        sum = n * (n + 1) / 2
+**Approach:** 
 
-If one number is missing in a list that should contain numbers from 1 to n,
-the difference between the expected sum and the actual sum of the array
-will give the missing number.
+-> Use the formula for the sum of first n natural numbers: `n(n+1)/2`.
+-> Compute the expected total for numbers 1 to n, then subtract the actual sum of the array.
+->  difference is the missing number.
 
-Steps:
-1. Calculate 'n' as arr.size() + 1.
-2. Compute the total expected sum using the formula.
-3. Compute the actual sum of all elements in the array.
-4. Return (total - sum), which is the missing number.
+**TIME COMPLEXITY:** $$O(n)$$  
 
-Example:
-    Input  → [1, 2, 3, 5]
-    Expected numbers → [1, 2, 3, 4, 5]
-    total = 5 * (5 + 1) / 2 = 15
-    sum = 1 + 2 + 3 + 5 = 11
-    Missing number = 15 - 11 = 4
-
-**TIME COMPLEXITY:** $$O(n)$$  - The array is traversed once to calculate the sum.
-
-**SPACE COMPLEXITY:** $$O(1)$$     - Only a few extra variables are used (constant space).
+**SPACE COMPLEXITY:** $$O(1)$$     
 
 
 
@@ -64,22 +55,14 @@ Example:
 
 **Platform:** [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
 
-**Approach:** Since the input array is sorted, all duplicates will appear next to each other.
+**Approach:** 
 
-We use two pointers:
+-> Pointer `i` tracks the position of the last unique element.
+-> Pointer `j` scans the array; when `nums[j] != nums[i]`, copy and increment.
 
-Pointer i: Tracks the position of the last unique element found.
+**TIME COMPLEXITY:** $$O(n)$$  
 
-Starts at index 0.
-
-Pointer j: Scans the array from index 1 to end.
-
-Logic: If nums[j] != nums[i], then a new unique element is found. Increment i and copy nums[j] to nums[i].
-Continue until j reaches the end. The number of unique elements = i + 1. The array is modified in place (no extra array created).
-
-**TIME COMPLEXITY:** $$O(n)$$  - We make one pass through the vector using pointer j. Each element is processed exactly once.
-
-**SPACE COMPLEXITY:** $$O(1)$$  - No extra memory is used except for a few variables. All operations are done in place.
+**SPACE COMPLEXITY:** $$O(1)$$ 
 
 
 
@@ -87,7 +70,12 @@ Continue until j reaches the end. The number of unique elements = i + 1. The arr
 
 **Platform:** [LeetCode](https://leetcode.com/problems/remove-element/)
 
-**Approach:** Two Pointer method.
+**Approach:** 
+
+-> Create a write pointer 'index' and assign it to 0.
+-> Traverse the array and whenever `nums[i] != val`, overwrite `nums[index]` with `nums[i]` and increment index.
+-> This compacts all valid elements to the front.
+-> Return index as the new length of the modified array.
 
 **TIME COMPLEXITY:** $$O(n)$$
 
@@ -99,7 +87,7 @@ Continue until j reaches the end. The number of unique elements = i + 1. The arr
 
 **Platform:** [LeetCode](https://leetcode.com/problems/plus-one/)
 
-**Approach:** A two pointer approach where the carry keeps track of the carry from incrementing the digits. If the digit/last digit is 9, it is incremented to 10, and carry becomes 1.
+**Approach:** 
 
 **TIME COMPLEXITY:** $$O(n)$$
 
@@ -111,24 +99,7 @@ Continue until j reaches the end. The number of unique elements = i + 1. The arr
 
 **Platform:** [GeeksforGeeks](https://www.geeksforgeeks.org/problems/second-largest3735/1?page=1&category=Arrays,CPP&difficulty=Easy&sortBy=submissions)
 
-**Approach:** We maintain two variables:
-    → firstMax   = largest number so far
-    → secondMax  = second largest distinct number so far
-
-Algorithm:
-1. Initialize both as INT_MIN.
-2. Traverse the array once:
-       a. If current number > firstMax:
-              secondMax = firstMax
-              firstMax = current number
-       b. Else if current number < firstMax but > secondMax:
-              secondMax = current number
-3. After traversal, if secondMax was never updated, return -1.
-   Otherwise, return secondMax.
-
-Example:
-    Input  → [4, 9, 10, 8, 14, 6]
-    Output → 10
+**Approach:** 
 
 **TIME COMPLEXITY:** $$O(n)$$ - We traverse the array once, doing constant work each step.
 
