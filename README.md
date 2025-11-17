@@ -27,6 +27,7 @@ My preferred language: C++
 **Approach:** 
 
 -> Use a hashmap to store numbers seen so far.
+
 -> For each number, check if `target - num` is already in the map.
 
 **Pattern:** Hash map
@@ -48,7 +49,9 @@ My preferred language: C++
 **Approach:** 
 
 -> Use the formula for the sum of first n natural numbers: `n(n+1)/2`.
+
 -> Compute the expected total for numbers 1 to n, then subtract the actual sum of the array.
+
 ->  difference is the missing number.
 
 **TIME COMPLEXITY:** $$O(n)$$  
@@ -68,6 +71,7 @@ My preferred language: C++
 **Approach:** 
 
 -> Pointer `i` tracks the position of the last unique element.
+
 -> Pointer `j` scans the array; when `nums[j] != nums[i]`, copy and increment.
 
 **TIME COMPLEXITY:** $$O(n)$$  
@@ -76,21 +80,27 @@ My preferred language: C++
 </details> 
 
 
+<details>
+<summary><strong>4. Remove Elemments</strong></summary>
 
-**4.** [Remove Elements](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Remove_elements.cpp)
+**Solution:** [Remove Elements](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Remove_elements.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/remove-element/)
 
 **Approach:** 
 
 -> Create a write pointer 'index' and assign it to 0.
+
 -> Traverse the array and whenever `nums[i] != val`, overwrite `nums[index]` with `nums[i]` and increment index.
+
 -> This compacts all valid elements to the front.
+
 -> Return index as the new length of the modified array.
 
 **TIME COMPLEXITY:** $$O(n)$$
 
 **SPACE COMPLEXITY:** $$O(1)$$
+</details>
 
 
 
