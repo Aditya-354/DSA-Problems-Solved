@@ -37,7 +37,11 @@ My preferred language: C++
 </details>
 
 
-**2.** [Missing in Array](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Missing_in_Array.cpp)
+
+<details>
+<summary><strong>2. Missing in Array</strong></summary>
+
+**Solution:** [Missing in Array](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Missing_in_Array.cpp)
 
 **Platform:** [GeeksforGeeks](https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1?page=1&category=Arrays,CPP&difficulty=Easy&sortBy=submissions)
 
@@ -50,10 +54,14 @@ My preferred language: C++
 **TIME COMPLEXITY:** $$O(n)$$  
 
 **SPACE COMPLEXITY:** $$O(1)$$     
+</details>
 
 
 
-**3.** [Remove Duplicates](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Remove_Duplicates_From_Sorted_Array.cpp)
+<details>
+<summary><strong>3. Remove Duplicates</strong></summary>
+
+**Solutions:** [Remove Duplicates](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Remove_Duplicates_From_Sorted_Array.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
 
@@ -64,7 +72,8 @@ My preferred language: C++
 
 **TIME COMPLEXITY:** $$O(n)$$  
 
-**SPACE COMPLEXITY:** $$O(1)$$ 
+**SPACE COMPLEXITY:** $$O(1)$$
+</details> 
 
 
 
