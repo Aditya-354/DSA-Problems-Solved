@@ -8,7 +8,7 @@
 
  // for using the dynamic array 
 #include <vector>   
-           
+
 // This is the hash map in C++
 #include <unordered_map>                 
 
@@ -53,7 +53,7 @@ int main()
     Solution s;
 
      // You can change the array elements
-     // Expected output for this test case: [0, 1]
+     // Expected output for this test case: [1, 2]
     std::vector<int> arr = {3, 2, 4}; 
 
     // This will be the target value. Can be changed based on the array elements.
