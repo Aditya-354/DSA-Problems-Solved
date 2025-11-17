@@ -5,8 +5,10 @@
 // Space complexity: O(n)
 
 #include <iostream>
+
  // for using the dynamic array 
-#include <vector>              
+#include <vector>   
+           
 // This is the hash map in C++
 #include <unordered_map>                 
 
