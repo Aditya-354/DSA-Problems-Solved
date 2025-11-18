@@ -110,6 +110,14 @@ My preferred language: C++
 
 **Approach:** 
 
+-> Start from the last digit and simulate addition with carry
+
+-> Add 1 to the last element; if it becomes 10, set it to 0 and carry over to the previous digit.
+
+-> If all digits are 9, insert 1 at the start.
+
+**Pattern:** Simulate Addition
+
 **TIME COMPLEXITY:** $$O(n)$$
 
 **SPACE COMPLEXITY:** $$O(1)$$
@@ -121,6 +129,16 @@ My preferred language: C++
 **Platform:** [GeeksforGeeks](https://www.geeksforgeeks.org/problems/second-largest3735/1?page=1&category=Arrays,CPP&difficulty=Easy&sortBy=submissions)
 
 **Approach:** 
+
+-> Two variables `firstMax` and `secondMax` are assigned with `INT_MIN` which is the lowest possible value of an `int`.
+
+-> Traverse the array and update `firstMax` whenever a larger value is found.  
+  When `firstMax` updates, assign its previous value to `secondMax`.  
+  Otherwise, update `secondMax` if the number is smaller than `firstMax` but larger than `secondMax`.
+
+→ Return `secondMax` (or -1 if it never updated).
+
+**Pattern:** Max Tracking
 
 **TIME COMPLEXITY:** $$O(n)$$ - We traverse the array once, doing constant work each step.
 
