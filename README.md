@@ -37,7 +37,7 @@ My preferred language: C++
 **SPACE COMPLEXITY:** $$O(n)$$
 </details>
 
-
+<!-- --- -->
 
 <details>
 <summary><strong>2. Missing in Array</strong></summary>
@@ -59,7 +59,7 @@ My preferred language: C++
 **SPACE COMPLEXITY:** $$O(1)$$     
 </details>
 
-
+<!-- --- -->
 
 <details>
 <summary><strong>3. Remove Duplicates</strong></summary>
@@ -79,6 +79,7 @@ My preferred language: C++
 **SPACE COMPLEXITY:** $$O(1)$$
 </details> 
 
+<!-- --- -->
 
 <details>
 <summary><strong>4. Remove Elemments</strong></summary>
@@ -102,7 +103,7 @@ My preferred language: C++
 **SPACE COMPLEXITY:** $$O(1)$$
 </details>
 
-
+<!-- --- -->
 
 **5.** [Plus One](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Plus_One.cpp)
 
@@ -122,7 +123,7 @@ My preferred language: C++
 
 **SPACE COMPLEXITY:** $$O(1)$$
 
-
+<!-- --- -->
 
 **6.** [Second Largest](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Second_Largest.cpp)
 
@@ -144,31 +145,37 @@ My preferred language: C++
 
 **SPACE COMPLEXITY:** $$O(1)$$     - We only use a fixed number of extra variables (firstMax, secondMax).
 
-
+<!-- --- -->
 
 **7.** [First Occurrance in a String](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/First_Occurance_in_String.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
 
-**Approach:** Two Pointers, string matching
+**Approach:**
+
+-> Move a window of length needle.size() across haystack and check if all characters match.
+
+-> Return the starting index on a full match; otherwise return `-1`.
+
+**Pattern:** Sliding window + brute force string matching
 
 **TIME COMPLEXITY:** $$O(m * n)$$
 
 **SPACE COMPLEXITY:** $$O(1)$$
 
-
+<!-- --- -->
 
 **8.** [Array Leaders](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Array_Leaders.cpp)
 
 **Platform:** [GeeksforGeeks](https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1?page=1&category=Arrays,CPP&difficulty=Easy&sortBy=submissions)
 
-**Approach:** searching
+**Approach:** searching                               
 
 **TIME COMPLEXITY:** $$O(n)$$
 
 **SPACE COMPLEXITY:** $$O(1)$$
 
-
+<!-- --- -->
 
 **9.** [Search Insert Position](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Search_Insert_Position.cpp)
 
@@ -180,7 +187,7 @@ My preferred language: C++
 
 **SPACE COMPLEXITY:** $$O(1)$$
 
-
+<!-- --- -->
 
 **10.** [Concatenation of Array](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Concatenation_of_array.cpp)
 
@@ -192,7 +199,7 @@ My preferred language: C++
 
 **SPACE COMPLEXITY:** $$O(n)$$
 
-
+<!-- --- -->
 
 **11.** [Contains Duplicate](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Contains_Duplicate.cpp)
 
@@ -204,7 +211,7 @@ My preferred language: C++
 
 **SPACE COMPLEXITY:** $$O(n)$$
 
-
+<!-- --- -->
 
 **12.** [Valid Anagram](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Valid_Anagram.cpp)
 
@@ -216,8 +223,7 @@ My preferred language: C++
 
 **SPACE COMPLEXITY:** $$O(1)$$
 
-
-
+<!-- --- -->
 
 **13.** [Longest Common Prefix](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Longest_Common_Prefix.cpp)
 
@@ -228,3 +234,35 @@ My preferred language: C++
 **TIME COMPLEXITY:** $$O(s)$$
 
 **SPACE COMPLEXITY:** $$O(1)$$
+
+<!-- --- -->
+
+<details>
+<summary><strong>14. Best Time to Buy and Sell stock</strong></summary>
+
+**Solution:** [Best Time To Buy and Sell stock](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/bestTimeToBuyAndSellStock.cpp)
+
+**Platform:** [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+
+**Approach:** 
+
+-> Scan the array once while tracking:
+
+* minPrice = lowest price seen so far (best buy)
+
+* maxProfit = maximum profit so far
+
+-> For each price:
+
+* Update minPrice = min(minPrice, price)
+
+* Compute profit = price - minPrice
+
+-> Update maxProfit = max(maxProfit, profit)
+
+-> Return maxProfit.
+
+**TIME COMPLEXITY:** $$O(n)$$
+
+**SPACE COMPLEXITY:** $$O(1)$$
+</details>
