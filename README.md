@@ -10,7 +10,7 @@ My preferred language: C++
 
 **PROBLEMS SOLVED:**
 
-[Arrays](https://github.com/Aditya-354/Interesting-DSA-Problems/tree/main/Arrays) : *13*
+[Arrays](https://github.com/Aditya-354/Interesting-DSA-Problems/tree/main/Arrays) : <strong>14</strong>
 
 
 ## Arrays
@@ -261,6 +261,30 @@ My preferred language: C++
 -> Update maxProfit = max(maxProfit, profit)
 
 -> Return maxProfit.
+
+**TIME COMPLEXITY:** $$O(n)$$
+
+**SPACE COMPLEXITY:** $$O(1)$$
+</details>
+
+<!-- --- -->
+
+<details>
+<summary><strong>15. Move Zeroes</strong></summary>
+
+**Solution:** [Move Zeroes]()
+
+**Platform:** [LeetCode](https://leetcode.com/problems/move-zeroes/)
+
+**Approach:**
+
+-> Use `insertPos` to track where the next non-zero should go.
+
+-> Loop through the array: whenever you see a non-zero, write it at `insertPos` and increment `insertPos`.
+
+-> After placing all non-zero elements, fill the remaining positions with 0s.
+
+**Pattern:** Two-Pointers
 
 **TIME COMPLEXITY:** $$O(n)$$
 
