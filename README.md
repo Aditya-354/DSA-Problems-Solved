@@ -272,7 +272,7 @@ My preferred language: C++
 <details>
 <summary><strong>15. Move Zeroes</strong></summary>
 
-**Solution:** [Move Zeroes]()
+**Solution:** [Move Zeroes](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Move_Zeroes.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/move-zeroes/)
 
