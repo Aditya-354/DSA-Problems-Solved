@@ -290,3 +290,30 @@ My preferred language: C++
 
 **SPACE COMPLEXITY:** $$O(1)$$
 </details>
+
+<!-- --- -->
+
+<details>
+<summary><strong>16. Maximum Subarray</strong></summary>
+
+**Solution:** [Maximum Subarray](Arrays/Move_Zeroes.cpp)
+
+**Platform:** [LeetCode](https://leetcode.com/problems/maximum-subarray/description/)
+
+**Approach:**
+
+-> Use Kadane’s Algorithm:
+
+-> Maintain a running sum `current_max` of the current subarray.
+
+-> For each element, choose the better option:
+    > start new `nums[i]` or extend previous `current_max + nums[i]`.
+
+-> Track the best sum in `actual_max`.
+
+**Pattern:** Dynamic Programming (Kadane) / Running Subarray Sum
+
+**TIME COMPLEXITY:** $$O(n)$$
+
+**SPACE COMPLEXITY:** $$O(1)$$
+</details>
