@@ -296,7 +296,7 @@ My preferred language: C++
 <details>
 <summary><strong>16. Maximum Subarray</strong></summary>
 
-**Solution:** [Maximum Subarray](Arrays/Move_Zeroes.cpp)
+**Solution:** [Maximum Subarray](Arrays/Maximum_Subarray.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/maximum-subarray/description/)
 
