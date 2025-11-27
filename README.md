@@ -317,3 +317,27 @@ My preferred language: C++
 
 **SPACE COMPLEXITY:** $$O(1)$$
 </details>
+
+<!-- --- -->
+
+<details>
+<summary><strong>17. 3Sum</strong></summary>
+
+**Solution:** [3Sum](Arrays/3_Sum.cpp)
+
+**Platform:** [LeetCode](https://leetcode.com/problems/3sum/description/)
+
+**Approach:** 
+
+-> Sort the array, fix each number `i`, and use two pointers (`left`, `right`) to find pairs that sum with `i` to zero.
+
+-> If sum < 0 - move `left++`; if sum > 0 - `right--`; if sum == 0 - record triplet and skip duplicates.
+
+-> Skip duplicate values for both `i` and the pointer positions to avoid repeated triplets.
+
+**Pattern:** Two Pointers + Sorting + Duplicate Skipping
+
+**TIME COMPLEXITY:** $$O(n<sup>2</sup>)$$
+
+**SPACE SOMPLEXITY:** $$O(1)$$
+</details>
