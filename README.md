@@ -337,7 +337,7 @@ My preferred language: C++
 
 **Pattern:** Two Pointers + Sorting + Duplicate Skipping
 
-**TIME COMPLEXITY:** $$O(n<sup>2</sup>)$$
+**TIME COMPLEXITY:** O(n<sup>2</sup>)
 
 **SPACE SOMPLEXITY:** $$O(1)$$
 </details>
