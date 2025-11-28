@@ -347,7 +347,7 @@ My preferred language: C++
 <details>
 <summary><strong>18. Subarray Sum Equals K</strong></summary>
 
-**Solution:** [Subarray Sum Equals K](Array/SubArray_Sum_Equals_K.cpp)
+**Solution:** [Subarray Sum Equals K](Array/Subarray_Sum_Equals_K.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/subarray-sum-equals-k/description/)
 
