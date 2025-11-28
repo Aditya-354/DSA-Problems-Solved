@@ -10,7 +10,7 @@ My preferred language: C++
 
 **PROBLEMS SOLVED:**
 
-[Arrays](https://github.com/Aditya-354/Interesting-DSA-Problems/tree/main/Arrays) : <strong>14</strong>
+[Arrays](https://github.com/Aditya-354/Interesting-DSA-Problems/tree/main/Arrays) : <strong>18</strong>
 
 
 ## Arrays
@@ -340,4 +340,28 @@ My preferred language: C++
 **TIME COMPLEXITY:** O(n<sup>2</sup>)
 
 **SPACE SOMPLEXITY:** $$O(1)$$
+</details>
+
+<!-- --- -->
+
+<details>
+<summary><strong>18. Subarray Sum Equals K</strong></summary>
+
+**Solution:** [Subarray Sum Equals K](Array/SubArray_Sum_Equals_K.cpp)
+
+**Platform:** [LeetCode](https://leetcode.com/problems/subarray-sum-equals-k/description/)
+
+**Approach:**
+
+-> Use a running prefix sum and a hash map to store how many times each prefix sum has appeared.
+
+->For each index, if `(prefix - k)` exists in the map, it means a subarray ending here sums to `k`; add its frequency to the answer.
+
+-> Then record the current prefix sum in the  map.
+
+**Pattern:** Prefix Sum + Hash Map (Frequency Counting)
+
+**TIME COMPLEXITY:** $$O(n)$$
+
+**SPACE SOMPLEXITY:** $$O(n)$$
 </details>
