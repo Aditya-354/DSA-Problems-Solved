@@ -189,7 +189,7 @@ My preferred language: C++
 **TIME COMPLEXITY:** $$O(n)$$
 
 **SPACE COMPLEXITY:** $$O(1)$$
-<details>
+</details>
 
 <!-- --- -->
 
@@ -241,7 +241,10 @@ My preferred language: C++
 
 <!-- --- -->
 
-**12.** [Valid Anagram](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Valid_Anagram.cpp)
+<details>
+<summary><strong>12. Valid Anagram</strong></summary>
+
+**Solution:** [Valid Anagram](Arrays/Valid_Anagram.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/valid-anagram/description/)
 
@@ -250,10 +253,14 @@ My preferred language: C++
 **TIME COMPLEXITY:** $$O(n)$$
 
 **SPACE COMPLEXITY:** $$O(1)$$
+</details>
 
 <!-- --- -->
 
-**13.** [Longest Common Prefix](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Longest_Common_Prefix.cpp)
+<details>
+<summary><strong>13. Longest Common Prefix</strong></summary>
+
+**Solution:** [Longest Common Prefix](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Longest_Common_Prefix.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/longest-common-prefix/)
 
@@ -262,6 +269,7 @@ My preferred language: C++
 **TIME COMPLEXITY:** $$O(s)$$
 
 **SPACE COMPLEXITY:** $$O(1)$$
+</detais>
 
 <!-- --- -->
 
