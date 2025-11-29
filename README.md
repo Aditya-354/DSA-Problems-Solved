@@ -82,7 +82,7 @@ My preferred language: C++
 <!-- --- -->
 
 <details>
-<summary><strong>4. Remove Elemments</strong></summary>
+<summary><strong>4. Remove Elements</strong></summary>
 
 **Solution:** [Remove Elements](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Remove_elements.cpp)
 
