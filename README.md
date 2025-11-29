@@ -269,7 +269,7 @@ My preferred language: C++
 **TIME COMPLEXITY:** $$O(s)$$
 
 **SPACE COMPLEXITY:** $$O(1)$$
-</detais>
+</details>
 
 <!-- --- -->
 
