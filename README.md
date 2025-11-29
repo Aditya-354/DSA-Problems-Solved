@@ -105,7 +105,10 @@ My preferred language: C++
 
 <!-- --- -->
 
-**5.** [Plus One](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Plus_One.cpp)
+<details>
+<summary><strong>5. Plus One</strong></summary>
+
+**Solution:** [Plus One](Arrays/Plus_One.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/plus-one/)
 
@@ -122,10 +125,14 @@ My preferred language: C++
 **TIME COMPLEXITY:** $$O(n)$$
 
 **SPACE COMPLEXITY:** $$O(1)$$
+</details>
 
 <!-- --- -->
 
-**6.** [Second Largest](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Second_Largest.cpp)
+<details>
+<summary><strong>6. Second Largest</strong></summary>
+
+**Solution:** [Second Largest](Arrays/Second_Largest.cpp)
 
 **Platform:** [GeeksforGeeks](https://www.geeksforgeeks.org/problems/second-largest3735/1?page=1&category=Arrays,CPP&difficulty=Easy&sortBy=submissions)
 
@@ -144,10 +151,14 @@ My preferred language: C++
 **TIME COMPLEXITY:** $$O(n)$$ - We traverse the array once, doing constant work each step.
 
 **SPACE COMPLEXITY:** $$O(1)$$     - We only use a fixed number of extra variables (firstMax, secondMax).
+</details>
 
 <!-- --- -->
 
-**7.** [First Occurrance in a String](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/First_Occurance_in_String.cpp)
+<details>
+<summary><strong>7. First Occurrance in a String</strong></summary>
+
+**Solution:** [First Occurance in a String](Arrays/First_Occurance_in_String.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
 
@@ -162,10 +173,14 @@ My preferred language: C++
 **TIME COMPLEXITY:** $$O(m * n)$$
 
 **SPACE COMPLEXITY:** $$O(1)$$
+</details>
 
 <!-- --- -->
 
-**8.** [Array Leaders](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Array_Leaders.cpp)
+<details>
+<summary><strong>8. Array Leaders</strong></summary>
+
+**Solution:** [Array Leaders](Arrays/Array_Leaders.cpp)
 
 **Platform:** [GeeksforGeeks](https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1?page=1&category=Arrays,CPP&difficulty=Easy&sortBy=submissions)
 
@@ -174,10 +189,14 @@ My preferred language: C++
 **TIME COMPLEXITY:** $$O(n)$$
 
 **SPACE COMPLEXITY:** $$O(1)$$
+<details>
 
 <!-- --- -->
 
-**9.** [Search Insert Position](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Search_Insert_Position.cpp)
+<details>
+<summary><strong>9. Search Insert Position</strong></summary>
+
+**Solution:** [Search Insert Position](Arrays/Search_Insert_Position.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/search-insert-position/)
 
@@ -186,10 +205,14 @@ My preferred language: C++
 **TIME COMPLEXITY:** $$O(n)$$
 
 **SPACE COMPLEXITY:** $$O(1)$$
+</details>
 
 <!-- --- -->
 
-**10.** [Concatenation of Array](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Concatenation_of_array.cpp)
+<details>
+<summary><strong>10. Concatenation of Array</strong></summary>
+
+**Solution:** [Concatenation of Array](Arrays/Concatenation_of_array.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/concatenation-of-array/description/)
 
@@ -198,10 +221,14 @@ My preferred language: C++
 **TIME COMPLEXITY:** $$O(n)$$
 
 **SPACE COMPLEXITY:** $$O(n)$$
+</details>
 
 <!-- --- -->
 
-**11.** [Contains Duplicate](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Contains_Duplicate.cpp)
+<details>
+<summary><strong>11. Contains Duplicate</strong></summary>
+
+**Solution:** [Contains Duplicate](Arrays/Contains_Duplicate.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/contains-duplicate/)
 
@@ -210,6 +237,7 @@ My preferred language: C++
 **TIME COMPLEXITY:** $$O(n)$$
 
 **SPACE COMPLEXITY:** $$O(n)$$
+</details>
 
 <!-- --- -->
 
