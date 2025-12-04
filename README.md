@@ -26,7 +26,7 @@ My preferred language: C++
 
 **Approach:** 
 
-> Use a hashmap to store numbers seen so far.
+> Use a hashmap to store numbers seen so far.\
 > For each number, check if `target - num` is already in the map.
 
 **Pattern:** Hash map
@@ -47,10 +47,8 @@ My preferred language: C++
 
 **Approach:** 
 
-> Use the formula for the sum of first n natural numbers: `n(n+1)/2`.
-
-> Compute the expected total for numbers 1 to n, then subtract the actual sum of the array.
-
+> Use the formula for the sum of first n natural numbers: `n(n+1)/2`.\
+> Compute the expected total for numbers 1 to n, then subtract the actual sum of the array.\
 >  difference is the missing number.
 
 **TIME COMPLEXITY:** $$O(n)$$  
@@ -89,13 +87,10 @@ My preferred language: C++
 
 **Approach:** 
 
--> Create a write pointer 'index' and assign it to 0.
-
--> Traverse the array and whenever `nums[i] != val`, overwrite `nums[index]` with `nums[i]` and increment index.
-
--> This compacts all valid elements to the front.
-
--> Return index as the new length of the modified array.
+> Create a write pointer 'index' and assign it to 0.\
+> Traverse the array and whenever `nums[i] != val`, overwrite `nums[index]` with `nums[i]` and increment index.\
+> This compacts all valid elements to the front.\
+> Return index as the new length of the modified array.
 
 **TIME COMPLEXITY:** $$O(n)$$
 
@@ -113,11 +108,9 @@ My preferred language: C++
 
 **Approach:** 
 
--> Start from the last digit and simulate addition with carry
-
--> Add 1 to the last element; if it becomes 10, set it to 0 and carry over to the previous digit.
-
--> If all digits are 9, insert 1 at the start.
+> Start from the last digit and simulate addition with carry.\
+> Add 1 to the last element; if it becomes 10, set it to 0 and carry over to the previous digit.\
+> If all digits are 9, insert 1 at the start.
 
 **Pattern:** Simulate Addition
 
@@ -137,13 +130,11 @@ My preferred language: C++
 
 **Approach:** 
 
--> Two variables `firstMax` and `secondMax` are assigned with `INT_MIN` which is the lowest possible value of an `int`.
-
--> Traverse the array and update `firstMax` whenever a larger value is found.  
-  When `firstMax` updates, assign its previous value to `secondMax`.  
-  Otherwise, update `secondMax` if the number is smaller than `firstMax` but larger than `secondMax`.
-
-→ Return `secondMax` (or -1 if it never updated).
+> Two variables `firstMax` and `secondMax` are assigned with `INT_MIN` which is the lowest possible value of an `int`.\
+> Traverse the array and update `firstMax` whenever a larger value is found.
+> When `firstMax` updates, assign its previous value to `secondMax`.
+> Otherwise, update `secondMax` if the number is smaller than `firstMax` but larger than `secondMax`.\
+> Return `secondMax` (or -1 if it never updated).
 
 **Pattern:** Max Tracking
 
@@ -163,9 +154,8 @@ My preferred language: C++
 
 **Approach:**
 
--> Move a window of length needle.size() across haystack and check if all characters match.
-
--> Return the starting index on a full match; otherwise return `-1`.
+> Move a window of length needle.size() across haystack and check if all characters match.\
+> Return the starting index on a full match; otherwise return `-1`.
 
 **Pattern:** Sliding window + brute force string matching
 
