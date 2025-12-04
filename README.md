@@ -68,10 +68,10 @@ My preferred language: C++
 **Platform:** [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
 
 **Approach:** 
-
--> Pointer `i` tracks the position of the last unique element.
-
--> Pointer `j` scans the array; when `nums[j] != nums[i]`, copy and increment.
+<dl>
+<dt>Pointer `i` tracks the position of the last unique element.</dt>
+<dt>Pointer `j` scans the array; when `nums[j] != nums[i]`, copy and increment.</dt>
+</dl>
 
 **TIME COMPLEXITY:** $$O(n)$$  
 
