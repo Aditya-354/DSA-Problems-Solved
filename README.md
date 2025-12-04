@@ -184,11 +184,16 @@ My preferred language: C++
 
 **Platform:** [GeeksforGeeks](https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1?page=1&category=Arrays,CPP&difficulty=Easy&sortBy=submissions)
 
-**Approach:** searching                               
+**Approach:** 
+> Traverse the array from right to left while keeping track of the maximum element seen so far.
+> Every time an element is ≥ this maximum, it is a “leader.”
+> Store these leaders, then reverse the result at the end because we collect them from the right side. 
+
+**PatternL** Reverse Traversal + Running Maximum
 
 **TIME COMPLEXITY:** $$O(n)$$
 
-**SPACE COMPLEXITY:** $$O(1)$$
+**SPACE COMPLEXITY:** $$O(n)$$
 </details>
 
 <!-- --- -->
