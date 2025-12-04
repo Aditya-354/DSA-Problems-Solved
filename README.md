@@ -26,9 +26,8 @@ My preferred language: C++
 
 **Approach:** 
 
--> Use a hashmap to store numbers seen so far.
-
--> For each number, check if `target - num` is already in the map.
+> Use a hashmap to store numbers seen so far.
+> For each number, check if `target - num` is already in the map.
 
 **Pattern:** Hash map
 
@@ -48,11 +47,11 @@ My preferred language: C++
 
 **Approach:** 
 
--> Use the formula for the sum of first n natural numbers: `n(n+1)/2`.
+> Use the formula for the sum of first n natural numbers: `n(n+1)/2`.
 
--> Compute the expected total for numbers 1 to n, then subtract the actual sum of the array.
+> Compute the expected total for numbers 1 to n, then subtract the actual sum of the array.
 
-->  difference is the missing number.
+>  difference is the missing number.
 
 **TIME COMPLEXITY:** $$O(n)$$  
 
