@@ -276,21 +276,14 @@ My preferred language: C++
 
 **Approach:** 
 
--> Scan the array once while tracking:
-
-* minPrice = lowest price seen so far (best buy)
-
-* maxProfit = maximum profit so far
-
--> For each price:
-
-* Update minPrice = min(minPrice, price)
-
-* Compute profit = price - minPrice
-
--> Update maxProfit = max(maxProfit, profit)
-
--> Return maxProfit.
+> Scan the array once while tracking:/
+>   minPrice = lowest price seen so far (best buy)/
+>   maxProfit = maximum profit so far
+> For each price:/
+> Update minPrice = min(minPrice, price)/
+> Compute profit = price - minPrice
+> Update maxProfit = max(maxProfit, profit)./
+> Return maxProfit.
 
 **TIME COMPLEXITY:** $$O(n)$$
 
@@ -308,11 +301,9 @@ My preferred language: C++
 
 **Approach:**
 
--> Use `insertPos` to track where the next non-zero should go.
-
--> Loop through the array: whenever you see a non-zero, write it at `insertPos` and increment `insertPos`.
-
--> After placing all non-zero elements, fill the remaining positions with 0s.
+> Use `insertPos` to track where the next non-zero should go./
+> Loop through the array: whenever you see a non-zero, write it at `insertPos` and increment `insertPos`./
+> After placing all non-zero elements, fill the remaining positions with 0s.
 
 **Pattern:** Two-Pointers
 
