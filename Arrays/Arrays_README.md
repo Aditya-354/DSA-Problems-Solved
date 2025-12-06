@@ -3,7 +3,7 @@
 <details>
 <summary><strong>1. Two - Sum</strong></summary>
 
-**Solution:** [Two-Sum-Solution](https://github.com/Aditya-354/Interesting-DSA-Problems/blob/main/Arrays/TwoSum.cpp)
+**Solution:** [Two-Sum-Solution](TwoSum.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/two-sum/description/)
 
@@ -24,7 +24,7 @@
 <details>
 <summary><strong>2. Missing in Array</strong></summary>
 
-**Solution:** [Missing in Array](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Missing_in_Array.cpp)
+**Solution:** [Missing in Array](Missing_in_Array.cpp)
 
 **Platform:** [GeeksforGeeks](https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1?page=1&category=Arrays,CPP&difficulty=Easy&sortBy=submissions)
 
@@ -44,7 +44,7 @@
 <details>
 <summary><strong>3. Remove Duplicates</strong></summary>
 
-**Solutions:** [Remove Duplicates](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Remove_Duplicates_From_Sorted_Array.cpp)
+**Solutions:** [Remove Duplicates](Remove_Duplicates_From_Sorted_Array.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
 
@@ -64,7 +64,7 @@
 <details>
 <summary><strong>4. Remove Elements</strong></summary>
 
-**Solution:** [Remove Elements](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Remove_elements.cpp)
+**Solution:** [Remove Elements](Remove_elements.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/remove-element/)
 
@@ -85,7 +85,7 @@
 <details>
 <summary><strong>5. Plus One</strong></summary>
 
-**Solution:** [Plus One](Arrays/Plus_One.cpp)
+**Solution:** [Plus One](Plus_One.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/plus-one/)
 
@@ -107,7 +107,7 @@
 <details>
 <summary><strong>6. Second Largest</strong></summary>
 
-**Solution:** [Second Largest](Arrays/Second_Largest.cpp)
+**Solution:** [Second Largest](Second_Largest.cpp)
 
 **Platform:** [GeeksforGeeks](https://www.geeksforgeeks.org/problems/second-largest3735/1?page=1&category=Arrays,CPP&difficulty=Easy&sortBy=submissions)
 
@@ -131,7 +131,7 @@
 <details>
 <summary><strong>7. First Occurrance in a String</strong></summary>
 
-**Solution:** [First Occurance in a String](Arrays/First_Occurance_in_String.cpp)
+**Solution:** [First Occurance in a String](First_Occurance_in_String.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
 
@@ -152,7 +152,7 @@
 <details>
 <summary><strong>8. Array Leaders</strong></summary>
 
-**Solution:** [Array Leaders](Arrays/Array_Leaders.cpp)
+**Solution:** [Array Leaders](Array_Leaders.cpp)
 
 **Platform:** [GeeksforGeeks](https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1?page=1&category=Arrays,CPP&difficulty=Easy&sortBy=submissions)
 
@@ -173,7 +173,7 @@
 <details>
 <summary><strong>9. Search Insert Position</strong></summary>
 
-**Solution:** [Search Insert Position](Arrays/Search_Insert_Position.cpp)
+**Solution:** [Search Insert Position](Search_Insert_Position.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/search-insert-position/)
 
@@ -189,7 +189,7 @@
 <details>
 <summary><strong>10. Concatenation of Array</strong></summary>
 
-**Solution:** [Concatenation of Array](Arrays/Concatenation_of_array.cpp)
+**Solution:** [Concatenation of Array](Concatenation_of_array.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/concatenation-of-array/description/)
 
@@ -205,7 +205,7 @@
 <details>
 <summary><strong>11. Contains Duplicate</strong></summary>
 
-**Solution:** [Contains Duplicate](Arrays/Contains_Duplicate.cpp)
+**Solution:** [Contains Duplicate](Contains_Duplicate.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/contains-duplicate/)
 
@@ -221,7 +221,7 @@
 <details>
 <summary><strong>12. Valid Anagram</strong></summary>
 
-**Solution:** [Valid Anagram](Arrays/Valid_Anagram.cpp)
+**Solution:** [Valid Anagram](Valid_Anagram.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/valid-anagram/description/)
 
@@ -237,7 +237,7 @@
 <details>
 <summary><strong>13. Longest Common Prefix</strong></summary>
 
-**Solution:** [Longest Common Prefix](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Longest_Common_Prefix.cpp)
+**Solution:** [Longest Common Prefix](Longest_Common_Prefix.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/longest-common-prefix/)
 
@@ -253,7 +253,7 @@
 <details>
 <summary><strong>14. Best Time to Buy and Sell stock</strong></summary>
 
-**Solution:** [Best Time To Buy and Sell stock](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/bestTimeToBuyAndSellStock.cpp)
+**Solution:** [Best Time To Buy and Sell stock](bestTimeToBuyAndSellStock.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
@@ -278,7 +278,7 @@
 <details>
 <summary><strong>15. Move Zeroes</strong></summary>
 
-**Solution:** [Move Zeroes](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Move_Zeroes.cpp)
+**Solution:** [Move Zeroes](Move_Zeroes.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/move-zeroes/)
 
@@ -300,7 +300,7 @@
 <details>
 <summary><strong>16. Maximum Subarray</strong></summary>
 
-**Solution:** [Maximum Subarray](Arrays/Maximum_Subarray.cpp)
+**Solution:** [Maximum Subarray](Maximum_Subarray.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/maximum-subarray/description/)
 
@@ -327,7 +327,7 @@
 <details>
 <summary><strong>17. 3Sum</strong></summary>
 
-**Solution:** [3Sum](Arrays/3_Sum.cpp)
+**Solution:** [3Sum](3_Sum.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/3sum/description/)
 
@@ -351,7 +351,7 @@
 <details>
 <summary><strong>18. Subarray Sum Equals K</strong></summary>
 
-**Solution:** [Subarray Sum Equals K](Arrays/Subarray_Sum_Equals_K.cpp)
+**Solution:** [Subarray Sum Equals K](Subarray_Sum_Equals_K.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/subarray-sum-equals-k/description/)
 
@@ -375,7 +375,7 @@
 <details>
 <summary><strong>19. Product of Array Except Self</strong></summary>
 
-**Solution:** [Product of Array Except Self](Arrays/Product_of_Array_Except_Self.cpp)
+**Solution:** [Product of Array Except Self](Product_of_Array_Except_Self.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/product-of-array-except-self/)
 
@@ -399,7 +399,7 @@
 <details>
 <summary><strong>20. Rotate Array</strong></summary>
 
-**Solution:** [Roate Array](Arrays/Roate_Array.cpp)
+**Solution:** [Roate Array](Roate_Array.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/rotate-array/)
 
@@ -421,7 +421,7 @@
 <details>
 <summary><strong>21. Merge Intervals</strong></summary>
 
-**Solution:** [Merge Intervals](Arrays/Merge_Intervals.cpp)
+**Solution:** [Merge Intervals](Merge_Intervals.cpp)
 
 **Platform:** [LeetCode](https://leetcode.com/problems/merge-intervals/description/)
 
