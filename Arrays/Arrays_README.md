@@ -409,6 +409,29 @@
 > Next, reverse the first `k` elements, and finally reverse the remaining `n - k` elements.\
 > These three reversals rotate the array to the right by `k` steps in-place.
 
+**Pattern:** Interval Merging / Sorting + Linear Scan
+
+**TIME COMPLEXITY:** $$O(nlogn)$$
+
+**SPACE SOMPLEXITY:** $$O(n)$$
+</details>
+
+<!-- --- -->
+
+<details>
+<summary><strong>21. Merge Intervals</strong></summary>
+
+**Solution:** [Merge Intervals](Arrays/Merge_Intervals.cpp)
+
+**Platform:** [LeetCode](https://leetcode.com/problems/merge-intervals/description/)
+
+**Approach:** 
+
+> Sort the intervals by their start time.\
+> Initialize the result with the first interval, then iterate through the rest:\
+>  - If the current interval overlaps with the last merged interval, update the end time.\
+>  - Otherwise, push the current interval as a new non-overlapping interval.
+
 **Pattern:** In-Place Array Reversal Technique
 
 **TIME COMPLEXITY:** $$O(n)$$
