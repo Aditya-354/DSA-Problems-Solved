@@ -438,3 +438,23 @@
 
 **SPACE SOMPLEXITY:** $$O(1)$$
 </details>
+
+<!-- --- -->
+
+<details>
+<summary><strong>21. Merge Sorted Array</strong></summary>
+
+**Solution:** [Merge Sorted Array](Merge_Sorted_Array.cpp)
+
+**Platform:** [LeetCode](https://leetcode.com/problems/merge-intervals/description/)
+
+**Approach:** 
+
+
+
+**Pattern:** Two Pointers + Sorting
+
+**TIME COMPLEXITY:** $$O(m + n)$$
+
+**SPACE SOMPLEXITY:** $$O(1)$$
+</details>
