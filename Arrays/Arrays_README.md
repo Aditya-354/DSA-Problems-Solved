@@ -177,7 +177,11 @@
 
 **Platform:** [LeetCode](https://leetcode.com/problems/search-insert-position/)
 
-**Approach:** searching
+**Approach:** 
+> Linearly scan the array and return the first index where `nums[i] ≥ target`.\
+> If no such position exists, the target should be inserted at the end, so `return n`.
+
+**Pattern:** Linear Search in Sorted Array
 
 **TIME COMPLEXITY:** $$O(n)$$
 
@@ -193,7 +197,12 @@
 
 **Platform:** [LeetCode](https://leetcode.com/problems/concatenation-of-array/description/)
 
-**Approach:** Array traversal & insertion
+**Approach:** 
+> Create a new array of size 2 * n.\
+> Copy the original array into the first half, and copy it again into the second half.\
+> This gives a concatenation of the array with itself.
+
+**Pattern:** Array Construction / Duplicate Fill
 
 **TIME COMPLEXITY:** $$O(n)$$
 
