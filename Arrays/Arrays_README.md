@@ -458,7 +458,7 @@
 <!-- --- -->
 
 <details>
-<summary><strong>21. Merge Sorted Array</strong></summary>
+<summary><strong>22. Merge Sorted Array</strong></summary>
 
 **Solution:** [Merge Sorted Array](Merge_Sorted_Array.cpp)
 
