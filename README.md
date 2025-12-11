@@ -14,4 +14,4 @@ My preferred language: C++
 
 **PROBLEMS SOLVED:**
 
-[Arrays](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Arrays_README.md) : <strong>20</strong>
+[Arrays](https://github.com/Aditya-354/DSA-Problems-Solved/blob/main/Arrays/Arrays_README.md) : <strong>22</strong>
