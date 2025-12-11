@@ -239,7 +239,13 @@
 
 **Platform:** [LeetCode](https://leetcode.com/problems/valid-anagram/description/)
 
-**Approach:** Using hash maps to store and check anagram
+**Approach:** 
+> If the strings differ in length, return false immediately.\
+> Use a hash map to count character frequencies:\
+> increment for each character in `s`, and decrement for each character in `t`.\
+> If all frequency values end at zero, the strings are anagrams.
+
+**Pattern:** Hash Map Frequency Counting
 
 **TIME COMPLEXITY:** $$O(n)$$
 
@@ -255,9 +261,12 @@
 
 **Platform:** [LeetCode](https://leetcode.com/problems/longest-common-prefix/)
 
-**Approach:** Array traversal and string operations to find the longest common prefix
+**Approach:** 
+> Use the first string as the initial prefix.\
+> Compare it with each subsequent string and shorten the prefix character-by-character until they match.\
+> If the prefix becomes empty at any point, return an empty string.
 
-**TIME COMPLEXITY:** $$O(s)$$
+**TIME COMPLEXITY:** $$O(n.m)$$
 
 **SPACE COMPLEXITY:** $$O(1)$$
 </details>
@@ -320,14 +329,11 @@
 
 **Approach:**
 
--> Use Kadane’s Algorithm:
-
--> Maintain a running sum `current_max` of the current subarray.
-
--> For each element, choose the better option:
-    > start new `nums[i]` or extend previous `current_max + nums[i]`.
-
--> Track the best sum in `actual_max`.
+> Use Kadane’s Algorith>\
+> Maintain a running sum `current_max` of the current subarra>\
+> For each element, choose the better option\
+> Start new `nums[i]` or extend previous `current_max + nums[i]>\
+> Track the best sum in `actual_max`.
 
 **Pattern:** Dynamic Programming (Kadane) / Running Subarray Sum
 
