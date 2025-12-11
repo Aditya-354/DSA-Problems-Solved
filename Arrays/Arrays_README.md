@@ -466,9 +466,9 @@
 
 **Approach:** 
 > Use three pointers starting from the end of each list:
-> `i` at the last valid element of `nums1`, `j` at the end of `nums2`, and `k at the last index of the merged array space.
+> `i` at the last valid element of `nums1`, `j` at the end of `nums2`, and `k` at the last index of the merged array space.
 > Compare elements from the back and fill `nums1[k]` with the larger one, moving pointers accordingly.
-> If any elements remain in `nums2`, copy them to the front of `nums1.
+> If any elements remain in `nums2`, copy them to the front of `nums1`.
 
 
 **Pattern:** Two-Pointer Merge (Reverse Merge Technique)
