@@ -218,7 +218,12 @@
 
 **Platform:** [LeetCode](https://leetcode.com/problems/contains-duplicate/)
 
-**Approach:** Searching if the duplicate of an element occurs at least once using hash maps 
+**Approach:** 
+> Use a hash map to count occurrences of each number while iterating through the array.\
+> If any element’s count exceeds 1, return `true`.\
+> If the loop finishes with no duplicates found, return `false`.
+
+**Pattern:** Hashing / Frequency Counting
 
 **TIME COMPLEXITY:** $$O(n)$$
 
