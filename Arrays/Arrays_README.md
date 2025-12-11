@@ -353,11 +353,9 @@
 
 **Approach:** 
 
--> Sort the array, fix each number `i`, and use two pointers (`left`, `right`) to find pairs that sum with `i` to zero.
-
--> If sum < 0 - move `left++`; if sum > 0 - `right--`; if sum == 0 - record triplet and skip duplicates.
-
--> Skip duplicate values for both `i` and the pointer positions to avoid repeated triplets.
+> Sort the array, fix each number `i`, and use two pointers (`left`, `right`) to find pairs that sum with `i` to zero. \
+> If sum < 0 - move `left++`; \if sum > 0 - `right--`; \if sum == 0 - record triplet and skip duplicate. \
+> Skip duplicate values for both `i` and the pointer positions to avoid repeated triplets.
 
 **Pattern:** Two Pointers + Sorting + Duplicate Skipping
 
@@ -377,11 +375,9 @@
 
 **Approach:**
 
--> Use a running prefix sum and a hash map to store how many times each prefix sum has appeared.
-
-->For each index, if `(prefix - k)` exists in the map, it means a subarray ending here sums to `k`; add its frequency to the answer.
-
--> Then record the current prefix sum in the  map.
+> Use a running prefix sum and a hash map to store how many times each prefix sum has appeared.\
+> For each index, if `(prefix - k)` exists in the map, it means a subarray ending here sums to `k`; add its frequency to the answer.\
+> Then record the current prefix sum in the  map.
 
 **Pattern:** Prefix Sum + Hash Map (Frequency Counting)
 
@@ -469,10 +465,13 @@
 **Platform:** [LeetCode](https://leetcode.com/problems/merge-intervals/description/)
 
 **Approach:** 
+> Use three pointers starting from the end of each list:
+> `i` at the last valid element of `nums1`, `j` at the end of `nums2`, and `k at the last index of the merged array space.
+> Compare elements from the back and fill `nums1[k]` with the larger one, moving pointers accordingly.
+> If any elements remain in `nums2`, copy them to the front of `nums1.
 
 
-
-**Pattern:** Two Pointers + Sorting
+**Pattern:** Two-Pointer Merge (Reverse Merge Technique)
 
 **TIME COMPLEXITY:** $$O(m + n)$$
 
